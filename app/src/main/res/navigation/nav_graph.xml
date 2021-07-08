@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noiseFragment">
+
+    <fragment
+        android:id="@+id/noiseFragment"
+        android:name="com.dxn.noiseandpollutiontracker.ui.fragments.noise.NoiseFragment"
+        android:label="Noise Graph"
+        tools:layout="@layout/fragment_noise" />
+    <fragment
+        android:id="@+id/airQualityFragment"
+        android:name="com.dxn.noiseandpollutiontracker.ui.fragments.airquality.AirQualityFragment"
+        android:label="Air Quality Graph"
+        tools:layout="@layout/air_quality_fragment" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.dxn.noiseandpollutiontracker.ui.fragments.map.MapsFragment"
+        android:label="Map View"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

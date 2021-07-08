@@ -1,0 +1,7 @@
+<resources>
+    <!--    Todo : Goto the below link, replace the query r = "" with your SHA1 Key, Get the API key and replace it  -->
+    <!--
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D8:1C:70:00:75:1D:B8:97:5A:AE:DC:7F:7A:54:5C:94:4A:F2:73:5C%3Bcom.dxn.noiseandpollutiontracker
+    -->
+     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_GOOGLE_API_KEY</string>
+</resources>
